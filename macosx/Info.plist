@@ -17,7 +17,9 @@
 	<key>CFBundleSignature</key>
 	<string>ONNE</string>
 	<key>CFBundleVersion</key>
-	<string>${APPLICATION_VERSION}</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
